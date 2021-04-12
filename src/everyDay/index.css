@@ -1,0 +1,32 @@
+.cityDiv{
+    margin:0 auto;
+    color:red;
+    font-size: larger;
+    text-align: center;
+}
+.dayWeather{
+    margin:0 auto;
+    color:blue;
+   
+    text-align: center;
+}
+.mainDayWeather{
+    display: grid;
+    grid-template-areas:'leftDiv rightDiv';
+    width: 300px;
+    height: 200px;
+    margin:0 auto;
+    color:blue;
+    font-size: larger;
+    text-align: center;
+    border:1px solid black;
+    border-radius: 15px;
+}
+.weatherLeftDiv{
+    grid-area: leftDiv;
+   
+}
+.weatherRightDiv{
+    grid-area: rightDiv;
+   
+}

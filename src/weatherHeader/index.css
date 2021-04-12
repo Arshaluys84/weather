@@ -1,0 +1,20 @@
+.forecastDiv{
+    margin:0 auto;
+    color:blue;
+    font-size: larger;
+    text-align: center;
+    border:1px solid black;
+    border-radius: 15px;
+
+}
+.tempSpan{
+    background-color: greenyellow;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border:1px solid black;
+}
+.fiveDaysForecast{
+    border:1px solid black;
+    margin:5px;
+}
